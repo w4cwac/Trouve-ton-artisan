@@ -4,7 +4,7 @@ import HeaderModal from "../components/headerModal";
 export default function Error404 (){
 
     return(
-        <div>
+        <body>
             <header>
                 <Header></Header>
             </header>
@@ -12,7 +12,7 @@ export default function Error404 (){
                 <h2>Page introuvable</h2>
 
             </main>
-        </div>
+        </body>
 
     );
 }
