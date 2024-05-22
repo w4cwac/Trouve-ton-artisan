@@ -2,7 +2,7 @@ import loupe from './assets/loupe.svg';
 import barre_menu from './assets/barre_menu.svg';
 import {useState} from "react";
 import {gsap} from "gsap";
-import headerModal from './headerModal';
+import HeaderModal from './headerModal';
 import { NavLink, Outlet} from "react-router-dom";
 import './style/header.scss';
 
@@ -122,7 +122,7 @@ export default function Header () {
                     </ul>
                 </nav>
             </header>
-            <headerModal showModal={toggledModal} setModalState={() => {setToggledModal(false)}} />
+            <HeaderModal showModal={toggledModal} setModalState={() => {setToggledModal(false)}} />
             <main>
                 <Outlet/>
             </main>
