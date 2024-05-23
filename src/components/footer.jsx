@@ -40,6 +40,8 @@ export default function Footer () {
                     </div>
                 </div>
             </div>
+            <hr />
+            <div className='pt-4 pb-4 d-flex flex-column align-items-center'>&copy; Hugo Wacogne <span className='text-bold'>Trouve ton Artisan</span></div>
         </>
 
     )

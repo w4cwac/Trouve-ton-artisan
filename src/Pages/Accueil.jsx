@@ -3,6 +3,7 @@ import Footer from "../components/footer";
 import data from '../datas.json';
 import EntrepriseCard from "../components/Entreprisecarte";
 import { useState,useEffect } from "react";
+import './styles/accueil.scss';
 
 export default function Accueil (){
     let tableauEntreprises = useState([]);
@@ -33,7 +34,8 @@ export default function Accueil (){
     return(
         <div>
             <Header></Header>
-            <section>
+            <hr />
+            <section className="section-entreprises pt-4 pb-4 d-flex flex-column align-items-center">
                 <ul>
                     <li>Etape 1 : Choisir une catégorie d'artisanat dans le menu.</li>
                     <li>Etape 2 : Choisir un artisan.</li>
@@ -41,8 +43,9 @@ export default function Accueil (){
                     <li>Etape 4 : Une réponse sera apportée sous 48h.</li>
                 </ul>
             </section>
+            <hr />
             <section className="section-entreprises pt-4 pb-4 d-flex flex-column align-items-center">
-                <h1 className="text-light text-center p-3">Entreprises du mois</h1>
+                <h1 className=" text-center p-3">Entreprises du mois</h1>
                 <article className="d-flex flex-column flex-md-row justify-content-center align-items-center align-items-md-start gap-2 pb-md-5 col-12 col-md-11">
                     {
                         troisEntreprises.map((item, key) =>

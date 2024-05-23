@@ -1,0 +1,19 @@
+
+svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .entreprise-card:hover {
+    cursor: pointer;
+  }
+  
+  .entreprise-card {
+    &:hover {
+      background-color: #f1f8fc;
+    }
+  }

@@ -1,8 +1,8 @@
 
-import { ReactComponent as MapPosition} from "./assets/map-position.svg";
+import { ReactComponent as MapPosition} from "./assets/map_position.svg";
 import { ReactComponent as Note} from "./assets/note.svg";
 
-import './EntrepriseDetail.scss';
+
 export default function EntrepriseDetail ( props ) {
 
 

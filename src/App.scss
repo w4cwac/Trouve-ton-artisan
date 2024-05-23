@@ -1,0 +1,36 @@
+@font-face{
+  src: url("./fonts/GraphikBold.otf");
+  font-family: "Graphik";
+}
+
+
+
+*, html, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Graphik";
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Graphik";
+  background-color: #f1f8fc;
+  color: #384050;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+// Couleurs ====================
+
+.bleu_primaire {
+  background-color: #0074c7;
+}
