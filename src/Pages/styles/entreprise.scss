@@ -1,0 +1,17 @@
+
+
+
+@media screen and (min-width: 1024px) {
+    .article-information {
+      border-radius: 0 !important;
+      border-top-left-radius: 5px !important;
+      border-bottom-left-radius: 5px !important;
+    }
+  
+    .article-form {
+      border-bottom-right-radius: 5px !important;
+      border-bottom-left-radius: 0 !important;
+      border-top-right-radius: 5px !important;
+    }
+  
+  }

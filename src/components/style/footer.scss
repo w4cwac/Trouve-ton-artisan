@@ -1,0 +1,30 @@
+
+
+.logo_site {
+    width: 90%;
+    height: 200px;
+    background-image: url("../assets/logo_site.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  .liens-footer li {
+    list-style: disc;
+  }
+  
+  @media screen and (min-width: 820px){
+    .logo_site {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (min-width: 1024px){
+    .logo_site {
+      width: 25%;
+    }
+  }
